@@ -87,7 +87,7 @@ export default function PhotoFrame() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-      <div ref={frameRef} className="relative w-[500px] h-[500px]">
+      <div ref={frameRef} className="relative w-[50vw] sm:w-[70vw] max-w-[500px] aspect-square">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vyapari%20Ekta%20Painal%20Frame%20222-3iCY8prBIMdrL78SS3kdbggA38Ijki.png"
           alt="Frame"
